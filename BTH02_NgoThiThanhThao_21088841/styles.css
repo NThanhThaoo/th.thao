@@ -1,0 +1,186 @@
+/* bai 1 */
+.bai1 {
+  font-family: Arial;
+  text-align: center;
+  margin: 20px;
+}
+.bai1 h1 {
+  font-size: 30px;
+}
+.bai1 input {
+  font-size: 20px;
+}
+.bai1 button {
+  font-size: 20px;
+}
+.bai1 div {
+  font-size: 20px;
+}
+/* bai 2 */
+.bai2 {
+  font-family: Arial;
+  text-align: center;
+  color: darkgray;
+  letter-spacing: normal;
+  font-size: 14px;
+}
+.bai2 h1 {
+  font-family: Arial;
+  color: blueviolet;
+  font-size: 35px;
+  text-align: center;
+}
+.bai2 button {
+  background-color: blue;
+  color: white;
+  width: 350px;
+  height: 40px;
+  cursor: pointer;
+}
+.bai2 .anh {
+  width: 20px;
+}
+.bai2 div {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+.bai2 label {
+  display: block;
+  margin-bottom: 7px;
+}
+.bai2 input {
+  width: 350px;
+  height: 30px;
+}
+.bai2 select {
+  width: 360px;
+  height: 38px;
+}
+.bai2 table {
+  width: 800px;
+}
+#loaikh {
+  color: #696969;
+}
+#mota {
+  width: 750px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* bai 3 */
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.thongtin,
+.lienhe {
+  flex: 1;
+  padding: 10px;
+}
+.thongtin p {
+  color: #696969;
+}
+h1 {
+  color: blue;
+  text-indent: 250px;
+}
+hr {
+  border-color: red;
+  border-top: 5;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.container input {
+  width: 500px;
+  height: 40px;
+  margin-top: 10px;
+}
+.container button {
+  margin-top: 10px;
+  width: 200px;
+  height: 35px;
+  background-color: lightskyblue;
+  color: white;
+  border-color: lightskyblue;
+  cursor: pointer;
+}
+#noidung {
+  height: 100px;
+}
+.lienhe h3 {
+  color: darkviolet;
+}
+/* bai 4 */
+.b4{
+  line-height: 3rem;
+  margin: auto;
+  border-radius: 5px;
+  width: 500px;
+  height: 650px;
+  text-align: center;
+}
+.b4 h2{
+  text-transform: uppercase;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #8a180f 0%, #9e5e54 100%); 
+    background-clip: text;
+    color: transparent;
+}
+.b4 input{
+  width: 50%;
+  padding: 7px 20px;
+  border-radius: 5px;
+  
+}
+.b4 select{
+  width: 51%;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.b4 label{
+  font-size: 1.2rem;
+}
+.b4 button{
+  padding: 10px 60px;
+  border-radius: 5px;
+  border: none;
+  background:black;
+  color: #fff;
+  font-size: 1rem;
+}
+.b4 button:hover{
+  background: rgb(176, 43, 43);
+}
+.b4 p{
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+/* bai 5 */
+.container .login-form {
+  margin: auto;
+  width: 600px;
+}
+.container button {
+  margin-bottom: 10px;
+  background-color: black;
+  border: 0px;
+  cursor: pointer;
+}
+.container h1 {
+  color: black;
+}
+.container input {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+/* bai 6 */

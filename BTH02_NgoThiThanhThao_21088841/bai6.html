@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+
+    @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap");
+
+    body {
+      font-family: "Outfit", sans-serif;
+      min-height: 100vh;
+      background: hsla(247, 36%, 5%, 0.952);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 900px;
+      height: 600px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 0px 10px rgba(20, 20, 20, 0.672);
+    }
+
+    .container-left,
+    .container-right {
+      width: 50%;
+      height: 100%;
+    }
+
+    .container-left {
+      padding: 40px;
+      background: #151d2d;
+    }
+
+    .container-heading {
+      color: #ffffff97;
+      position: relative;
+    }
+
+    .container-heading:before {
+      content: "";
+      position: absolute;
+      width: 70px;
+      height: 5px;
+      bottom: -10px;
+      background: linear-gradient(to right, aqua, yellow);
+    }
+
+    .form-control {
+      margin-top: 100px;
+    }
+
+    .form-control h3 {
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #ffffff97;
+    }
+
+    .form-control p {
+      color: #ffffff97;
+      margin-top: 10px;
+    }
+
+    .form-control form {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px 0px;
+    }
+
+    .form-control form input {
+      padding: 20px 0px;
+      border: none;
+      outline: none;
+      background: #2b304d;
+      padding-left: 10px;
+      position: relative;
+      color: #ffffff97;
+    }
+
+    .form-checkbox {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 0px 10px;
+    }
+
+    .form-checkbox label {
+      color: #ffffff97;
+      font-size: 14px;
+    }
+
+    .form-control button {
+      width: 90%;
+      padding: 17px 20px;
+      margin-top: 5px;
+      font-weight: bold;
+      color: #ffffff97;
+      background: #755af0;
+      border: none;
+      outline: none;
+      box-shadow: 3px 3px 0px rgb(88, 16, 233);
+      transition: 0.2s ease-in-out;
+    }
+
+    .form-control button:hover {
+      background: #2b81e4;
+      box-shadow: 3px 3px 0px #1172e2;
+    }
+
+    .form_pass input {
+      width: 90%;
+    }
+
+    .form_pass i {
+      color: #fff;
+      padding-left: 10px;
+    }
+    .fg_pass a{
+      padding-right: 40px;
+      float: right;
+      color: #fff;
+      font-size: 13px;
+    }
+    .fg_pass a:hover{
+      color: blue;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container-left">
+      <h3 class="container-heading">LOGIN</h3>
+      <div class="form-control">
+        <form action="">
+          <input style="width: 90%;" type="text" placeholder="Name" />
+          <div class="form_pass">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <i class="fa-solid fa-eye" id="toggle-password"></i>
+          </div>
+
+          <div class="form-checkbox">
+            <input type="checkbox" id="remember-me" />
+            <label for="remember-me">Remember me</label>
+          </div>
+
+          <div>
+            <button type="submit">Login</button>
+          </div>
+            <button type="submit">Sign up</button>
+
+
+          <div class="fg_pass">
+            <a>
+              Forgot password?</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container-right">
+      <img src="./image.png" alt="" />
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
